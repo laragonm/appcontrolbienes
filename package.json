@@ -1,0 +1,49 @@
+{
+  "name": "Control_de_Bienes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "android-build-release": "cd ./android && rm -rf app/src/main/res/drawable* && ./gradlew app:assembleRelease",
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native-stack": "^6.2.5",
+    "axios": "^0.24.0",
+    "expo-app-loading": "^2.0.0",
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "react-native-camera": "^4.2.1",
+    "react-native-flash-message": "^0.2.0",
+    "react-native-media-queries": "^0.3.0",
+    "react-native-paper": "^4.9.2",
+    "react-native-permissions": "^3.2.0",
+    "react-native-qrcode-scanner": "^1.5.4",
+    "react-native-responsive-layout": "^1.2.0",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/runtime": "7.15.4",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@react-navigation/native": "^6.0.6",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-navigation": "^4.4.4",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
